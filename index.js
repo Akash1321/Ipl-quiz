@@ -94,5 +94,5 @@ for (var i=0; i<1; i++)
     console.log(chalk.yellow('PLEASE SEND US A SCREENSHOT SO THAT WE CAN UPDATE THE HIGHSCORE'))
   }else{
     console.log(chalk.yellowBright('Your total score is' + score))
-    console.log(chalk.blueBright('The all time high score is' + topper[i]))
+    console.log(chalk.blueBright('The all time high score is' + topper[i].scored))
   }
